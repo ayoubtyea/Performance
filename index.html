@@ -136,11 +136,14 @@
         <div class="lg:w-1/2 xl:w-2/3 order-2 lg:order-1">
           <div class="flex flex-col items-center lg:items-start md:mt-[4rem]">
             <h1
-              class="text-Blue text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 text-center sm:text-left"
+              class="text-Blue text-3xl leading-[2.5rem] md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 text-center sm:text-left"
             >
               Your Next Performance Management Platform
             </h1>
-            <p class="text-gray-600 text-sm md:text-base mb-4 md:mb-6 w-1/2">
+
+            <p
+              class="text-gray-600 text-sm md:text-base mb-4 md:mb-6 w-full md:w-[50%] lg:w-[60%] xl:w-[70%]"
+            >
               Fully customizable performance management platform that suits your
               culture, not the other way around.
             </p>
@@ -576,31 +579,53 @@
       </div>
     </section>
 
-    <section class="mt-10rem">
-      <div class="section">
-        <div class="sign-up relative">
+    <footer class="bg-gray-100 hidden sm:block">
+      <div class="px-12 md:px-6 py-8 md:py-0 hidden sm:flex justify-center">
+        <div class="container mx-auto p-0 md:p-8 xl:px-0">
+          <h1 class="text-4xl lg:text-3xl font-bold text-[#323F73]">
+            Performance
+          </h1>
+          <p class="mt-6 text-[#95AFBA] lg:w-1/4">
+            Fully customizable performance management platform that suits your
+            culture, not the other way around.
+          </p>
+          <div class="flex flex-col lg:flex-row gap-6 text-[#95AFBA] mt-6">
+            <div class="one mt-2">
+              <h4>Enquiries</h4>
+              <p class="text-[#323F73]">ux.rudrisha@gmail.com</p>
+            </div>
+            <div class="two mt-2">
+              <h4>Contact No.</h4>
+              <p class="text-[#323F73]">00000-000-00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div
+        class="section absolute inset-0 flex justify-center items-center text-center text-white"
+      >
+        <div
+          class="sign-up bg-cover bg-center rounded-lg h-[640px]"
+          style="background-image: url('images/Group.png')"
+        >
           <div
-            class="bg-cover bg-center rounded-lg w-455px h-96 sm:h-640px relative"
+            class="bg-cover bg-center rounded-lg relative"
             style="background-image: url('images/Rectangle copy 2.png')"
           >
-            <div
-              class="absolute inset-0 flex flex-col justify-center items-center text-center text-white"
-            >
+            <div class="p-6 lg:w-3/4">
               <h1
                 class="text-Blue text-2xl md:text-2xl lg:text-2xl font-bold mb-4"
               >
                 Get Started in Minutes
               </h1>
-              <p
-                class="text-[#95AFBA] text-xs md:text-xl lg:text-xl mb-6 w-1/4"
-              >
-                Fully Customizable performance management platform that suits
+              <p class="text-[#95AFBA] text-xs md:text-xl lg:text-xl mb-6">
+                Fully customizable performance management platform that suits
                 your culture
               </p>
               <form
                 action="/your-action-url"
                 method="post"
-                class="bg-white bg-opacity-75 rounded-lg p-6 shadow-md"
+                class="bg-white bg-opacity-75 rounded-lg shadow-md"
               >
                 <input
                   type="text"
@@ -616,14 +641,12 @@
                   required
                   class="w-full mb-4 px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500"
                 />
-
                 <textarea
                   name="message"
                   placeholder="Message"
                   required
                   class="w-full mb-4 px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500"
                 ></textarea>
-
                 <button
                   type="submit"
                   class="bg-[#ff416c] hover:bg-pink-700 text-white text-sm rounded-lg px-4 py-2 focus:outline-none focus:ring focus:border-pink-300"
@@ -634,7 +657,25 @@
             </div>
           </div>
         </div>
+      </div> -->
+      <div
+        class="ml-20 mx-auto mt-20 flex place-content-around items-center lg:items-end"
+      >
+        <div class="links flex gap-5 items-center text-[#323F73]">
+          <a>Product Tour</a>
+          <a>Customer</a>
+          <a>About Us</a>
+          <a>Help</a>
+        </div>
+        <div class="icons flex gap-10 text-[#323F73]">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
       </div>
-    </section>
+      <span class="text-[#323F73] block mt-4 px-4 md:px-10"
+        >© 2020 - Performance</span
+      >
+    </footer>
   </body>
 </html>
